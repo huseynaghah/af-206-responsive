@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.column,
+.column2 {
+    padding: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+
+.intro {
+    padding: 150px;
+    gap: 50px;
+    background-image: url('https://assets.nicepagecdn.com/11a8ddce/6182598/images/japandi-living-room-interior-design.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1{
+    font-size: 70px;
+}
+
+.intro img{
+    width: 60px;
+    height: auto;
+}
+
+.interior{
+    min-height: 560px;
+}
+
+.interior-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 1.5rem;
+   
+}
+.interior-right{
+    padding: 1.5rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.interior-left img{
+    width: 403px;
+    height: 398px;
+}
+
+.interior-left h1{
+   font-size: 48px;
+}
+
+.interior-right p{
+    font-size: 22px;
+
+}
+
+.choose{
+    background-color: purple;
+    color: white;
+}
+
+.choose-header{
+    display: flex;
+    justify-content: center;
+}
+
+.choose-header h1{
+    font-size: 35px;
+   
+}
+
+.choose-header-card{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+@media (min-width: 576px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+    
+
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+
+}
+
+
+
+@media (max-width: 575.98px) {
+    .column {
+        width: 100%;
+    }
+
+    .column2 {
+        width: 100%;
+    }
+
+    #desktopNav {
+        display: none;
+    }
+
+    #mobileNav {
+        display: flex;
+    }
+
+    .interior-left{
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .column {
+        width: 100%;
+    }
+
+    .column2 {
+        width: 100%;
+    }
+
+    #desktopNav {
+        display: none;
+    }
+
+    #mobileNav {
+        display: flex;
+    }
+    .interior-left{
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .column {
+        width: 100%;
+    }
+
+    .column2 {
+        width: 50%;
+    }
+
+    #desktopNav {
+        display: none;
+    }
+
+    #mobileNav {
+        display: flex;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .column {
+        width: 50%;
+    }
+
+    .column2 {
+        width: 50%;
+    }
+
+    #desktopNav {
+        display: flex;
+    }
+
+    #mobileNav {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .column {
+        width: 50%;
+    }
+
+    .column2 {
+        width: 25%;
+    }
+
+    #desktopNav {
+        display: flex;
+    }
+
+    #mobileNav {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .column {
+        width: 50%;
+    }
+
+    .column2 {
+        width: 25%;
+    }
+
+    #desktopNav {
+        display: flex;
+    }
+
+    #mobileNav {
+        display: none;
+    }
+
+
+}
